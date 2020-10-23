@@ -1,0 +1,32 @@
+name: NanoServices
+main: maciej.Main
+version: 2.0.1
+author: Szwendacz99
+api-version: 1.16
+description:  Some Plugin That Does Stuff
+commands:
+  chatcolor:
+    description: Chane your default chat color (see minecraft formatting codes)
+    usage: /chatcolor <color> (eg. /chatcolor 5) (see minecraft formatting codes)
+    permission: nanoservices.chatcolor
+  votekick:
+    description: Start votekick.
+    usage: /votekick <player>
+    permission: nanoservices.votekick
+  vote:
+    description: Make your choice on votekick.
+    usage: /vote yes
+    permission: nanoservices.vote
+  shellcommand:
+    description: Execute shell command.
+    usage: /shellcommand <command>
+    permission: nanoservices.shellcommand
+  nanoservicesdebug:
+    description: Debug info
+    usage: /nanoservicesdebug
+    permission: nanoservices.debug
+  nanoservicessettings:
+    description: Display currently loaded settings
+    usage: /nanoservicessettings
+    permission: nanoservices.settings
+ 

@@ -1,0 +1,55 @@
+# This file can be only updated by changing its name or deleting it and then restarting plugin, which will create new
+# config file named config.yml with latest default settings.
+
+# version of plugin that created this file
+version: 2.0.1
+
+# enable votekick service that allows players to vote on kicking a player.
+votekick-service: true
+
+# minor service for broadcasting some events like player join/leave server, which allows you to
+# customize used messages in messages.yml config file
+event-broadcast-service: true
+
+# WARNING: you can enable this only at your own risk. Server hosting providers might do not like this one.
+# Author of plugin does not take responsibility for your usage of this plugin.
+# This service gives possibility to execute shell command of operating system that is running your minecraft server
+shell-command-service: false
+
+# Chat Color service allows players to set their custom chat color
+# and also to use & sign to one-time format and change colors of the chat using minecraft formatting codes
+chat-color-service: true
+
+# displays debug info
+debug-service: true
+
+# censor service provides possibility to replace unwanted words on public chat with
+# any replacements, and log such incidents in text file
+censor-service: true
+
+
+#----------------- Broadcast service settings -----------------#
+# broadcast info of player who mined diamond
+bc-player-found-diamond: true
+
+# broadcast info of player who mined emerald
+bc-player-found-emerald: true
+
+# broadcast nickname of player who placed TNT and location of it
+bc-player-placed-tnt: true
+
+# broadcast nickname of player who set fire to TNT and location of it
+bc-player-set-fire-tnt: true
+
+# broadcast player joined the server
+bc-player-joined: true
+
+# broadcast player left the server
+bc-player-left: true
+
+#----------------- Censure service settings -----------------#
+# words are censored in order, so if for example you censor words "car" and carpet, then put carpet
+# first so there will not be replaced only "car" part of word "carpet"
+# to add or change censored words edit tab below like this:
+# ["badWord1":"replacement1", "badWord2":"replacement 2", "bad Word3":"replacement 3"]
+forbidden-words: []

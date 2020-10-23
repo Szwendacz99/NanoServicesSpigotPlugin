@@ -1,0 +1,28 @@
+version: 2.0.1
+player-found-diamond: "§9Gracz %s§9 znalazł diament!"
+player-found-emerald: "§9Gracz %s§9 znalazł szmaragd!"
+
+color-change-on-join-tip: "§5§bMożesz zmienić domyślny kolor twojego czatu komendą /chatcolor <kolor> (np /chatcolor 5)"
+
+player-joined: "§2Gracz %s§2 wszedł na serwer !"
+player-left: "§8Gracz %s§8 opuścł serwer !"
+
+player-placed-tnt: "§6Gracz %s§6 postawił TNT na współrzędnych X:%s Y:%s Z:%s"
+player-set-fire-on-tnt: "§6Gracz %s§6 podpalił TNT na współrzędnych X:%s Y:%s Z:%s"
+
+shell-could-not-execute: "Nie udało się wykonać tego polecenia."
+shell-finished-with-result: "Zakończono wykonywanie polecenia z wynikiem: %d"
+shell-error-on-read-output: "Błąd przy odczytywaniu outputu (wykonywanie mogło zostać przerwane)"
+
+chat-color-new-color: "Twój czat ma nowy kolor!"
+
+votekck-start: "§4§lGracz %s§4§l chce wykopać %s"
+to-vote-yes: "§2§lAby zagłosować, napisz /vote yes"
+he-want-to-kick-too: "§4§lGracz %s§4§l równierz chce wykopać tego gracza."
+info-for-kicked-player: "Nie chcą Cię tutaj :["
+failed-votekick: "§2Gracz %s§2 zostaje z nami!"
+votekick-time-left: "§4Pozostało %d sekund"
+more-votes-needed: "§4Potrzeba jeszcze %d głosów!"
+
+
+

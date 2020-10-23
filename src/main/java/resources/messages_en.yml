@@ -1,0 +1,28 @@
+version: 2.0.0
+player-found-diamond: "§9Player %s§9 have found diamond!"
+player-found-emerald: "§9Player %s§9 have found emerald!"
+
+color-change-on-join-tip: "§5§bYou can change color of your chat with command /chatcolor <color> (eg. /chatcolor 5)"
+
+player-joined: "§2Player %s§2 has joined the server !"
+player-left: "§8Player %s§8 has left the server !"
+
+player-placed-tnt: "§6Player %s§6 have placed TNT on coordinates X:%s Y:%s Z:%s"
+player-set-fire-on-tnt: "§6Player %s§6 have set fire on TNT on coordinates X:%s Y:%s Z:%s"
+
+shell-could-not-execute: "Could not execute this command."
+shell-finished-with-result: "Finished executing command with result: %d"
+shell-error-on-read-output: "Error while reading output (probably because the executing was interrupted)"
+
+chat-color-new-color: "Your chat has a new color!"
+
+votekck-start: "§4§lPlayer %s§4§l wants to kick %s"
+to-vote-yes: "§2§lTo vote, write /vote yes"
+he-want-to-kick-too: "§4§lPlayer %s§4§l also wants to kick this player."
+info-for-kicked-player: "They don't want you here :["
+failed-votekick: "§2Player %s§2 is going to stay with us!"
+votekick-time-left: "§4%d seconds left"
+more-votes-needed: "§4Need %d votes more!"
+
+
+
